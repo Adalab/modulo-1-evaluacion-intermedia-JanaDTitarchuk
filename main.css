@@ -1,0 +1,61 @@
+:root {
+  --RubikFont: "Rubik", sans-serif;
+  --MenuColor: #dfdfdf;
+  --FontColor: #3cdbc0;
+  --TextColor: #ffffff;
+  --MenuFontSize: 16px;
+}
+
+body {
+  margin: 0px;
+}
+
+.logo {
+  width: 155px;
+  margin: 10px;
+  display: block;
+  align-content: center;
+}
+
+.menu {
+  display: flex;
+  width: 155px;
+  margin-bottom: 13px;
+  flex-direction: row;
+  font-size: var(--MenuFontSize);
+  color: var(--MenuColor);
+  text-transform: uppercase;
+  background-color: aquamarine;
+  width: 100%;
+  position: fixed;
+}
+
+.menu .blog-link {
+  margin-right: 20px;
+  width: 100%;
+}
+
+.menu .contacto-link {
+  margin-left: 0px;
+}
+
+.content {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--FontColor);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 30px;
+  font-family: var(--RubikFont);
+  position: absolute;
+  text-align: center;
+  color: var(--TextColor);
+  font-family: var(--RubikFont);
+  text-transform: capitalize;
+}
