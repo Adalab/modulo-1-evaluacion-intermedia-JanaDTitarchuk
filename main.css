@@ -30,13 +30,19 @@ body {
   position: fixed;
 }
 
-.menu .blog-link {
+.blog-link {
   margin-right: 20px;
   width: 100%;
+  font-size: var(--MenuFontSize);
+  color: var(--MenuColor);
+  text-transform: uppercase;
 }
 
-.menu .contacto-link {
+.contacto-link {
   margin-left: 0px;
+  font-size: var(--MenuFontSize);
+  color: var(--MenuColor);
+  text-transform: uppercase;
 }
 
 .content {
