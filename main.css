@@ -1,6 +1,6 @@
 :root {
   --RubikFont: "Rubik", sans-serif;
-  --MenuColor: #dfdfdf;
+  --MenuColor: #4a4a4a;
   --FontColor: #3cdbc0;
   --TextColor: #ffffff;
   --MenuFontSize: 16px;
@@ -9,23 +9,27 @@
 body {
   margin: 0px;
 }
+.header {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 .logo {
   width: 155px;
   margin: 10px;
-  display: block;
-  align-content: center;
 }
 
 .menu {
   display: flex;
+  justify-content: center;
   width: 155px;
   margin-bottom: 13px;
   flex-direction: row;
-  font-size: var(--MenuFontSize);
-  color: var(--MenuColor);
   text-transform: uppercase;
-  background-color: ;
   width: 100%;
   position: fixed;
   left: 0;
