@@ -37,7 +37,8 @@ body {
   z-index: 999;
   background-color: white;
 }
-
+.menubar {
+}
 .blog-link {
   margin-right: 20px;
   width: 100%;
