@@ -25,9 +25,13 @@ body {
   font-size: var(--MenuFontSize);
   color: var(--MenuColor);
   text-transform: uppercase;
-  background-color: aquamarine;
+  background-color: ;
   width: 100%;
   position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
 }
 
 .blog-link {
@@ -36,6 +40,8 @@ body {
   font-size: var(--MenuFontSize);
   color: var(--MenuColor);
   text-transform: uppercase;
+  font-size: var(--MenuFontSize);
+  font-family: var(--RubikFont);
 }
 
 .contacto-link {
@@ -43,6 +49,8 @@ body {
   font-size: var(--MenuFontSize);
   color: var(--MenuColor);
   text-transform: uppercase;
+  font-size: var(--MenuFontSize);
+  font-family: var(--RubikFont);
 }
 
 .content {
