@@ -10,12 +10,17 @@ body {
   margin: 0px;
 }
 .header {
-  width: 100%;
+  width: 100vw;
+  top: 0;
+  left: 0;
   display: flex;
   align-content: center;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  z-index: 999;
+  background-color: white;
 }
 
 .logo {
@@ -24,38 +29,33 @@ body {
 }
 
 .menu {
+  list-style-type: none;
+  width: 155px;
+  text-transform: uppercase;
+  margin: 3px;
+}
+.botones {
+  font-family: var(--RubikFont);
+  color: var(--MenuColor);
   display: flex;
   justify-content: center;
-  width: 155px;
-  margin-bottom: 13px;
-  flex-direction: row;
-  text-transform: uppercase;
-  width: 100%;
-  position: fixed;
-  left: 0;
-  width: 100%;
-  z-index: 999;
-  background-color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
 }
-.menubar {
-}
+
 .blog-link {
-  margin-right: 20px;
-  width: 100%;
-  font-size: var(--MenuFontSize);
   color: var(--MenuColor);
-  text-transform: uppercase;
-  font-size: var(--MenuFontSize);
   font-family: var(--RubikFont);
+  text-decoration: none;
+  padding-right: 20px;
 }
 
 .contacto-link {
-  margin-left: 0px;
-  font-size: var(--MenuFontSize);
   color: var(--MenuColor);
-  text-transform: uppercase;
-  font-size: var(--MenuFontSize);
   font-family: var(--RubikFont);
+  text-decoration: none;
+  padding-left: 20px;
 }
 
 .content {
@@ -72,9 +72,8 @@ body {
   text-align: center;
   font-size: 30px;
   font-family: var(--RubikFont);
-  position: absolute;
   text-align: center;
   color: var(--TextColor);
-  font-family: var(--RubikFont);
   text-transform: capitalize;
+  width: 8em; /*o word-spacing: 100vw; */
 }
